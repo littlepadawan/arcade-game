@@ -12,5 +12,5 @@ You start at the bottom of the screen and you goal is to make it accross the pic
 
 Using the arrow keys on your keyboard, you can move the player up, down, left and right. When you reach the water the game is won!
 
-## Known bugs
+#### Known bugs
 In the function `Player.prototype.checkCrossing` in the `app.js` file I didn't really want to reset the players location when the user closes the `crossing-modal` by clicking the close button or just anywhere outside the modal. But I couldn't get the function to run properly without calling `player.resetPlayer()` when closing the modal these ways.
