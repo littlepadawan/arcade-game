@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+}
+
+/* ***** Crossing Modal ***** */
+
+/* The background */
+#modal-crossing {
+   display: none; /*Hidden by default*/
+   position: fixed; /* Stays in place*/
+   z-index: 1; /* Sits on top */
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0, 0, 0, 0.4)
+}
+
+/* The content */
+.modal-content-crossing {
+    width: 30%;
+    margin: 15% auto;
+    padding: 10px;
+    background-color: #fefefe;
+    color: #1f272c;
+    border: 3px solid #1f272c;
+    box-shadow: 0px 0px 26px 4px rgba(237, 226, 178, 0.75);
+}
+
+/* The close button */
+#btn-close {
+    background: #fff;
+    color: #1f272c;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    border: 0.7px solid;
+    border-radius: 2px;
+}
+
+#btn-close:hover,
+#btn-close:focus {
+    background: #1f272c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.you-made-it {
+    margin: 30px auto 20px auto;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.play-again {
+    font-size: 100%;
+    font-weight: 400;
+    margin: 1px;
+}
+/* The play again-button */
+#btn-play-again {
+    background: transparent;
+    color: #1f272c;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 2px;
+    margin: 0px auto;
+    display: block;
+    width: 32%;
+}
+
+#btn-play-again:hover {
+    cursor: pointer;
+    background: #1f272c;
+    color: #fff;
+    border: 2px solid #1f272c;
+}
+
+/* The background */
+
+#modal-collision {
+    display: none;
+    /*Hidden by default*/
+    position: fixed;
+    /* Stays in place*/
+    z-index: 1;
+    /* Sits on top */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0, 0.4)
+}
+
+.modal-content-collision {
+    font-size: 150%;
+    width: 18%;
+    margin: 15% auto;
+    padding: 10px;
+    background-color: #fefefe;
+    color: #1f272c;
+    border: 3px solid #1f272c;
+}
