@@ -5,7 +5,7 @@ A simple single player game where the goal for the player is to cross the road a
 This game is the fourth project in the Front End Web Development nanodegree at Udacity. I was given quite a bit of starter code (HTML, CSS and JavaScript) and my task has been to add entities to recreate the classic arcade game Frogger.
 
 ## What you need to play the game
-The application runs in your browser, so you don't need to install anything or make any settings. Either click this link or download the repository and open up `index.html` in your browser to start playing.
+The application runs in your browser, so you don't need to install anything or make any settings. Either click this [link](https://littlepadawan.github.io/arcade-game/) or download the repository and open up `index.html` in your browser to start playing.
 
 ## How to play the game
 You start at the bottom of the screen and you goal is to make it accross the picture to the water. To do this you must avoid colliding with the enemies. The enemies move at varaying speed and if you collide with one of them the game is reset and you have to start over.
